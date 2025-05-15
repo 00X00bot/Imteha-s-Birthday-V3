@@ -653,10 +653,10 @@
       }
     }
 
-    var tanya = 'Do you want the gift? 😶❤️';
+    var tanya = 'Tmr Gift lagbe bacca? 😶❤️';
     var opstanya = 'Come on, answer 😆';
-    var tompositif = 'Yes';
-    var tomnegatif = 'No';
+    var tompositif = 'hum😁';
+    var tomnegatif = 'na☹️';
 
     async function menuju() { pesanwhatsapp = "" + nama + " "; await swals.fire('OK!', 'Send your answer to my WhatsApp!', 'success'); window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp; }
   </script>
@@ -822,10 +822,10 @@
     async function pertanyaan() {
       var { isConfirmed: prtanya } = await swals.fire({ title: nama + ' ' + tanya, text: '' + opstanya, imageUrl: '' + fotostiker6.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif, });
       if (prtanya) {
-        await swalst.fire({ title: '' + katatambahan.innerHTML, timer: 2000, imageUrl: '' + stikerditolak.src, });
+        await swalst.fire({ title: '' + katatambahan.innerHTML, timer: 3800, imageUrl: '' + stikerditolak.src, });
         vketik8 = vketik81; aktipesan8();
       } else {
-        await swalst.fire({ title: '' + kataditolak.innerHTML, timer: 2000, imageUrl: '' + stikerditolak.src, });
+        await swalst.fire({ title: '' + kataditolak.innerHTML, timer: 3800, imageUrl: '' + stikerditolak.src, });
         vketik8 = ""; aktipesan8();
       }
     }
